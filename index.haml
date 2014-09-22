@@ -9,6 +9,7 @@
         -(2...25).each do |i| 
           -@names = ["Andrew","Ben","Brandon","Brenden","Chis","Daniel","Derek","Eric","Eric","Kieran","Kinnan","Kiristine","Lucy","Marlon","Marly","Melody","Mike","Mike","Shannon","Thaigo","Tom","Veronika","Zack"]
           %div{:id => "member-#{i}",:class =>"member",}
+            %img{:src=>"images/september_students/#{i}.png",}
             .name
               #{@names[@counter]}
             -@counter +=1

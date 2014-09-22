@@ -99,7 +99,7 @@ body {
 #team-members .member {
   display: inline-block;
   background-repeat: no-repeat;
-  width: 200px;
+  width: 207px;
   height: 170px;
   background-color: #999999;
   margin: auto;
@@ -117,6 +117,14 @@ body {
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease; }
 
+#team-members .member img {
+  visibility: hidden;
+  float: left;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+
 #team-members {
   position: relative;
   width: 500px;
@@ -129,13 +137,14 @@ body {
   -o-transition: all 2.6s ease; }
 
 #team-members .member div.name {
+  font-family: arial;
+  font-size: 1em;
   position: relative;
-  top: 140px;
   text-align: center;
   opacity: 0;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease; }
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease; }
 
 #team-members:hover .member {
   filter: sepia(1);
@@ -157,6 +166,10 @@ body {
 #team-members:hover .member:hover .name {
   opacity: 1;
   color: black; }
+
+#team-members:hover .member:hover img {
+  visibility: visible;
+  opacity: 1; }
 
 #team-members:hover .member:hover ~ #blackground {
   opacity: 1; }
