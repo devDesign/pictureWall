@@ -1,0 +1,162 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 1.5em;
+  padding: 0px;
+  margin: 0px;
+  background: #eeeeee;
+  background: -webkit-radial-gradient(center, circle, #cccccc, #eeeeee);
+  background: radial-gradient(circle at center, #cccccc, #eeeeee); }
+  body h1 {
+    color: fuchsia; }
+
+#team-members #member-2 {
+  background-image: url("../images/september_students/2.png"); }
+
+#team-members #member-3 {
+  background-image: url("../images/september_students/3.png"); }
+
+#team-members #member-4 {
+  background-image: url("../images/september_students/4.png"); }
+
+#team-members #member-5 {
+  background-image: url("../images/september_students/5.png"); }
+
+#team-members #member-6 {
+  background-image: url("../images/september_students/6.png"); }
+
+#team-members #member-7 {
+  background-image: url("../images/september_students/7.png"); }
+
+#team-members #member-8 {
+  background-image: url("../images/september_students/8.png"); }
+
+#team-members #member-9 {
+  background-image: url("../images/september_students/9.png"); }
+
+#team-members #member-10 {
+  background-image: url("../images/september_students/10.png"); }
+
+#team-members #member-11 {
+  background-image: url("../images/september_students/11.png"); }
+
+#team-members #member-12 {
+  background-image: url("../images/september_students/12.png"); }
+
+#team-members #member-13 {
+  background-image: url("../images/september_students/13.png"); }
+
+#team-members #member-14 {
+  background-image: url("../images/september_students/14.png"); }
+
+#team-members #member-15 {
+  background-image: url("../images/september_students/15.png"); }
+
+#team-members #member-16 {
+  background-image: url("../images/september_students/16.png"); }
+
+#team-members #member-17 {
+  background-image: url("../images/september_students/17.png"); }
+
+#team-members #member-18 {
+  background-image: url("../images/september_students/18.png"); }
+
+#team-members #member-19 {
+  background-image: url("../images/september_students/19.png"); }
+
+#team-members #member-20 {
+  background-image: url("../images/september_students/20.png"); }
+
+#team-members #member-21 {
+  background-image: url("../images/september_students/21.png"); }
+
+#team-members #member-22 {
+  background-image: url("../images/september_students/22.png"); }
+
+#team-members #member-23 {
+  background-image: url("../images/september_students/23.png"); }
+
+#team-members #member-24 {
+  background-image: url("../images/september_students/24.png"); }
+
+#team-members #blackground {
+  position: fixed;
+  background-color: #111111;
+  z-index: -1;
+  right: -10px;
+  left: -10px;
+  top: -1000px;
+  bottom: -1000px;
+  opacity: 0;
+  -webkit-transition: all 2.6s ease;
+  -moz-transition: all 2.6s ease;
+  -o-transition: all 2.6s ease; }
+
+.center-wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+
+#team-members .member {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 170px;
+  background-color: #999999;
+  margin: auto;
+  background-position: center;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  margin-bottom: 5px;
+  filter: sepia(0);
+  -webkit-filter: sepia(0);
+  -moz-filter: sepia(0);
+  -o-filter: sepia(0);
+  -ms-filter: sepia(0);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease; }
+
+#team-members {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  -webkit-transition: all 2.6s ease;
+  -moz-transition: all 2.6s ease;
+  -o-transition: all 2.6s ease; }
+
+#team-members .member div.name {
+  position: relative;
+  top: 140px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+#team-members:hover .member {
+  filter: sepia(1);
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1); }
+
+#team-members:hover .member:hover {
+  filter: sepia(0);
+  -webkit-filter: sepia(0);
+  -moz-filter: sepia(0);
+  -o-filter: sepia(0);
+  -ms-filter: sepia(0);
+  opacity: 1;
+  background-position: top;
+  border-color: #1a1a1a; }
+
+#team-members:hover .member:hover .name {
+  opacity: 1;
+  color: black; }
+
+#team-members:hover .member:hover ~ #blackground {
+  opacity: 1; }

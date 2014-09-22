@@ -1,0 +1,126 @@
+$primaryColor: #FF00FF;
+$memberBgColor: #999999;
+$memberBorderColor: darken( $memberBgColor,50% );
+$nameColor: black;
+$backgroundLight: #eeeeee;
+$backgroundDark: #cccccc;
+$blackgroundColor: #111111;
+
+body {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 1.5em;
+  padding: 0px;
+  margin: 0px;
+  background: $backgroundLight;
+  background: -webkit-radial-gradient(center, circle, $backgroundDark, $backgroundLight);
+  background: radial-gradient(circle at center, $backgroundDark, $backgroundLight);
+
+  h1 {
+    color: $primaryColor; 
+  }
+}
+
+@for $i from 2 through 24 {
+  #team-members #member-#{$i} { background-image:url("../images/september_students/"+$i+".png");}
+}
+
+#team-members #blackground{
+  position: fixed;
+  background-color: $blackgroundColor;
+  z-index: -1;
+  right:-10px;
+  left:-10px;
+  top:-1000px;
+  bottom: -1000px;
+  opacity: 0;
+  -webkit-transition: all 2.6s ease;
+  -moz-transition: all 2.6s ease;
+  -o-transition: all 2.6s ease;
+
+}
+.center-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#team-members .member
+{                   
+  display: inline-block;
+  background-repeat: no-repeat; 
+  width: 200px;
+  height: 170px; 
+  background-color: $memberBgColor;
+  margin: auto;  
+  background-position: center; 
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  margin-bottom: 5px;
+  filter: sepia(0);
+  -webkit-filter: sepia(0);
+  -moz-filter: sepia(0);
+  -o-filter: sepia(0);
+  -ms-filter: sepia(0);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+
+#team-members {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  display: block;
+  -webkit-transition: all 2.6s ease;
+  -moz-transition: all 2.6s ease;
+  -o-transition: all 2.6s ease;
+}
+
+#team-members .member div.name {
+  position: relative;
+  top: 140px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+#team-members:hover  .member 
+{                   
+  filter: sepia(1);
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1);
+
+}
+
+#team-members:hover .member:hover{
+  filter: sepia(0);
+  -webkit-filter: sepia(0);
+  -moz-filter: sepia(0);
+  -o-filter: sepia(0);
+  -ms-filter: sepia(0);
+  opacity: 1;
+  background-position: top;
+  border-color: $memberBorderColor;
+}
+
+#team-members:hover .member:hover .name{
+  opacity: 1;
+  color: $nameColor;
+}
+
+#team-members:hover .member:hover ~#blackground{
+  opacity: 1;
+}
+
+
+#team-members .member:active {
+  
+
+}

@@ -1,0 +1,15 @@
+%html
+  %head
+    %title Team Members
+    %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+    #team-members
+      .center-wrapper
+        -@counter = 0
+        -(2...25).each do |i| 
+          -@names = ["Andrew","Ben","Brandon","Brenden","Chis","Daniel","Derek","Eric","Eric","Kieran","Kinnan","Kiristine","Lucy","Marlon","Marly","Melody","Mike","Mike","Shannon","Thaigo","Tom","Veronika","Zack"]
+          %div{:id => "member-#{i}",:class =>"member",}
+            .name
+              #{@names[@counter]}
+            -@counter +=1
+        #blackground
