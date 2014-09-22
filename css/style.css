@@ -1,129 +1,12 @@
 body {
   text-align: center;
   font-family: Verdana;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0px;
   margin: 0px;
   background: #eeeeee;
   background: -webkit-radial-gradient(center, circle, #cccccc, #eeeeee);
   background: radial-gradient(circle at center, #cccccc, #eeeeee); }
-  body h1 {
-    color: fuchsia; }
-
-#team-members #member-2 {
-  background-image: url("../images/september_students/2.png"); }
-
-#team-members #member-3 {
-  background-image: url("../images/september_students/3.png"); }
-
-#team-members #member-4 {
-  background-image: url("../images/september_students/4.png"); }
-
-#team-members #member-5 {
-  background-image: url("../images/september_students/5.png"); }
-
-#team-members #member-6 {
-  background-image: url("../images/september_students/6.png"); }
-
-#team-members #member-7 {
-  background-image: url("../images/september_students/7.png"); }
-
-#team-members #member-8 {
-  background-image: url("../images/september_students/8.png"); }
-
-#team-members #member-9 {
-  background-image: url("../images/september_students/9.png"); }
-
-#team-members #member-10 {
-  background-image: url("../images/september_students/10.png"); }
-
-#team-members #member-11 {
-  background-image: url("../images/september_students/11.png"); }
-
-#team-members #member-12 {
-  background-image: url("../images/september_students/12.png"); }
-
-#team-members #member-13 {
-  background-image: url("../images/september_students/13.png"); }
-
-#team-members #member-14 {
-  background-image: url("../images/september_students/14.png"); }
-
-#team-members #member-15 {
-  background-image: url("../images/september_students/15.png"); }
-
-#team-members #member-16 {
-  background-image: url("../images/september_students/16.png"); }
-
-#team-members #member-17 {
-  background-image: url("../images/september_students/17.png"); }
-
-#team-members #member-18 {
-  background-image: url("../images/september_students/18.png"); }
-
-#team-members #member-19 {
-  background-image: url("../images/september_students/19.png"); }
-
-#team-members #member-20 {
-  background-image: url("../images/september_students/20.png"); }
-
-#team-members #member-21 {
-  background-image: url("../images/september_students/21.png"); }
-
-#team-members #member-22 {
-  background-image: url("../images/september_students/22.png"); }
-
-#team-members #member-23 {
-  background-image: url("../images/september_students/23.png"); }
-
-#team-members #member-24 {
-  background-image: url("../images/september_students/24.png"); }
-
-#team-members #blackground {
-  position: fixed;
-  background-color: #111111;
-  z-index: -1;
-  right: -10000px;
-  left: -10000px;
-  top: -100000px;
-  bottom: -10000px;
-  opacity: 0;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease; }
-
-.center-wrapper {
-  margin-left: auto;
-  margin-right: auto; }
-
-#team-members .member {
-  display: inline-block;
-  background-repeat: no-repeat;
-  width: 207px;
-  height: 170px;
-  background-color: #999999;
-  margin: auto;
-  background-position: center;
-  border-color: black;
-  border-radius: 5px;
-  border-style: solid;
-  margin-bottom: 5px;
-  filter: sepia(0);
-  -webkit-filter: sepia(0);
-  -moz-filter: sepia(0);
-  -o-filter: sepia(0);
-  -ms-filter: sepia(0);
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease; }
-
-#team-members .member img {
-  visibility: hidden;
-  float: left;
-  opacity: 0;
-  -webkit-transition: all 0.9s ease;
-  -moz-transition: all 0.9s ease;
-  -o-transition: all 0.9s ease; }
 
 #team-members {
   position: relative;
@@ -135,16 +18,109 @@ body {
   -webkit-transition: all 2.6s ease;
   -moz-transition: all 2.6s ease;
   -o-transition: all 2.6s ease; }
-
-#team-members .member div.name {
-  font-family: arial;
-  font-size: 1em;
-  position: relative;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease; }
+  #team-members #member-2 {
+    background-image: url("../images/september_students/2.png"); }
+  #team-members #member-3 {
+    background-image: url("../images/september_students/3.png"); }
+  #team-members #member-4 {
+    background-image: url("../images/september_students/4.png"); }
+  #team-members #member-5 {
+    background-image: url("../images/september_students/5.png"); }
+  #team-members #member-6 {
+    background-image: url("../images/september_students/6.png"); }
+  #team-members #member-7 {
+    background-image: url("../images/september_students/7.png"); }
+  #team-members #member-8 {
+    background-image: url("../images/september_students/8.png"); }
+  #team-members #member-9 {
+    background-image: url("../images/september_students/9.png"); }
+  #team-members #member-10 {
+    background-image: url("../images/september_students/10.png"); }
+  #team-members #member-11 {
+    background-image: url("../images/september_students/11.png"); }
+  #team-members #member-12 {
+    background-image: url("../images/september_students/12.png"); }
+  #team-members #member-13 {
+    background-image: url("../images/september_students/13.png"); }
+  #team-members #member-14 {
+    background-image: url("../images/september_students/14.png"); }
+  #team-members #member-15 {
+    background-image: url("../images/september_students/15.png"); }
+  #team-members #member-16 {
+    background-image: url("../images/september_students/16.png"); }
+  #team-members #member-17 {
+    background-image: url("../images/september_students/17.png"); }
+  #team-members #member-18 {
+    background-image: url("../images/september_students/18.png"); }
+  #team-members #member-19 {
+    background-image: url("../images/september_students/19.png"); }
+  #team-members #member-20 {
+    background-image: url("../images/september_students/20.png"); }
+  #team-members #member-21 {
+    background-image: url("../images/september_students/21.png"); }
+  #team-members #member-22 {
+    background-image: url("../images/september_students/22.png"); }
+  #team-members #member-23 {
+    background-image: url("../images/september_students/23.png"); }
+  #team-members #member-24 {
+    background-image: url("../images/september_students/24.png"); }
+  #team-members #blackground {
+    position: fixed;
+    background-color: #111111;
+    z-index: -1;
+    color: #ff6867;
+    text-align: right;
+    font-size: 10em;
+    right: -10000px;
+    left: -10000px;
+    top: -100000px;
+    bottom: -10000px;
+    opacity: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease; }
+  #team-members .center-wrapper {
+    margin-left: auto;
+    margin-right: auto; }
+  #team-members .member {
+    display: inline-block;
+    width: 207px;
+    min-height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #999999;
+    margin: auto;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 5px;
+    filter: sepia(0);
+    -webkit-filter: sepia(0);
+    -moz-filter: sepia(0);
+    -o-filter: sepia(0);
+    -ms-filter: sepia(0);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease; }
+    #team-members .member img {
+      visibility: hidden;
+      float: left;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease; }
+    #team-members .member div.name {
+      font-family: arial;
+      font-size: 1.3em;
+      color: white;
+      position: relative;
+      text-align: center;
+      top: 4px;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      text-shadow: #cccccc 0px 1px 0px, #787878 0px 2px 0px, #505050 0px 3px 0px, #505050 0px 4px 0px, rgba(50, 50, 50, 0.4) 0px 2px 0px; }
 
 #team-members:hover .member {
   filter: sepia(1);
@@ -161,11 +137,12 @@ body {
   -ms-filter: sepia(0);
   opacity: 1;
   background-position: top;
-  border-color: gray; }
+  border-color: #6b6b6b; }
 
 #team-members:hover .member:hover .name {
+  display: block;
   opacity: 1;
-  color: black; }
+  color: white; }
 
 #team-members:hover .member:hover img {
   visibility: visible;
